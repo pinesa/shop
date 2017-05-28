@@ -1,0 +1,126 @@
+[ 2017-05-28T10:39:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-05-28T10:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-05-28T11:58:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-05-28T11:58:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+ERR: 无法加载控制器:Index
+
+[ 2017-05-28T11:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/head22.html
+ERR: 非法操作:head22
+
+[ 2017-05-28T11:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/right22.html
+ERR: 非法操作:right22
+
+[ 2017-05-28T11:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/left22.html
+ERR: 非法操作:left22
+
+[ 2017-05-28T11:59:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T11:59:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T11:59:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:00:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:00:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:00:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:03:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:03:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/header.html
+ERR: 模板不存在:./Application/Admin/View/Index/header.html
+
+[ 2017-05-28T12:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:06:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:06:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:06:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:06:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:07:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:07:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:07:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:07:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:08:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:08:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:08:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:08:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:08:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/Public/Admin/css/admin.css
+ERR: 非法操作:Public
+
+[ 2017-05-28T12:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:09:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:10:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2017-05-28T12:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/admin.css
+ERR: 非法操作:css
+

@@ -6,7 +6,7 @@
 
         <title>用户登录</title>
 
-        <link href="/Public/Admin/css/User_Login.css" type="text/css" rel="stylesheet" />
+        <link href="/shop/Public/Admin/css/User_Login.css" type="text/css" rel="stylesheet" />
     </head><body id="userlogin_body">
         <div></div>
         <div id="user_login">
@@ -36,14 +36,14 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="/Public/Admin/img/admin.png"  alt="" />
+                                            <img src="/shop/Public/Admin/img/admin.png"  alt="" />
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="user_main_r">
 
-                                <input style="border: medium none; background: url('/Public/Admin/img/user_botton.gif') repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;" value="" type="submit">
+                                <input style="border: medium none; background: url('/shop/Public/Admin/img/user_botton.gif') repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;" value="" type="submit">
                             </li>
                         </ul>
                     </form>

@@ -1,0 +1,344 @@
+[ 2017-05-29T11:28:56+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001825s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004052s ]
+
+[ 2017-05-29T11:28:58+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+
+[ 2017-05-29T11:28:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006624s ]
+
+[ 2017-05-29T11:28:59+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000848s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2017-05-29T11:29:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004625s ]
+
+[ 2017-05-29T11:29:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/right.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2017-05-29T11:29:01+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006840s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004348s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007963s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004857s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004986s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005245s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008222s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:29:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002294s ]
+
+[ 2017-05-29T11:29:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2017-05-29T11:29:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/right.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000562s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007737s ]
+
+[ 2017-05-29T11:29:34+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000708s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005950s ]
+
+[ 2017-05-29T11:29:36+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:32:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009457s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:32:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003280s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:32:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:33:40+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004270s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:33:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004455s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-05-29T11:33:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000494s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004442s ]
+
+[ 2017-05-29T11:33:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000493s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003294s ]
+
+[ 2017-05-29T11:33:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/right.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003330s ]
+
+[ 2017-05-29T11:33:46+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000973s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003848s ]
+
+[ 2017-05-29T11:33:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Brand/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004853s ]
+

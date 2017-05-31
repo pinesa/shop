@@ -34,6 +34,12 @@ class IndexController extends Controller
 	 */
 	public function right()
 	{
+		$time = time();
+		$login_time = session('login_time');
+		$this->assign('data', array(
+			'time' =>$time,
+			'login_time'=>$login_time, 
+			));
 		$this->display();
 	}
 }

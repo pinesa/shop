@@ -17,7 +17,7 @@
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="#" method="post">
+                    <form action="" method="post">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -36,7 +36,7 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="/shop/Public/Admin/img/admin.png"  alt="" />
+                                            <img src="<?php echo U('verify');?>" onclick="this.src='/shop/index.php/admin/Login/verify'" style="width: 80px;height: 20px;border-radius: 4px;cursor: pointer;" alt="验证码" />
                                         </li>
                                     </ul>
                                 </div>

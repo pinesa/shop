@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <title>增加品牌</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
-        <link href="__ADMIN__/css/mine.css" type="text/css" rel="stylesheet">
+        <link href="/shop/Public/Admin/css/mine.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
@@ -19,22 +19,24 @@
         <div></div>
 
         <div style="font-size: 13px;margin: 10px 5px">
-            <form action="{:U('Brand/edit')}" method="post" >
+            <form action="<?php echo U('add');?>" method="post" >
             <table border="1" width="100%" class="table_a">
-            <input type="hidden" name="id" value="{$data.id}" />
                 <tr>
                     <td>品牌名称</td>
-                    <td><input type="text" name="brand_name" value="{$data.brand_name}" /></td>
+                    <td><input type="text" name="brand_name" /></td>
                 </tr>
                 
                 
                 <tr>
                     <td>品牌排序</td>
-                    <td><input type="text" name="brand_sort" value="{$data.brand_sort}" /></td>
+                    <td><input type="text" name="brand_sort" /></td>
                 </tr>
+               
+                
+                
                 <tr>
                     <td colspan="2" align="center">
-                        <input type="submit" value="修改">
+                        <input type="submit" value="添加">
                     </td>
                 </tr>  
             </table>

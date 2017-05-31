@@ -71,7 +71,7 @@ class BrandController extends Controller
 		if ($this->brand->delete($id)) {
 			$this->success("删除成功",U("showList"));die;
 		}else{
-			$this->error("修改失败");
+			$this->error("未做修改操作");
 		}
 	}
 }

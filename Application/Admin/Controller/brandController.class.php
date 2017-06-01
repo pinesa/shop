@@ -34,6 +34,10 @@ class BrandController extends Controller
 	{
 		if (IS_POST) {
 			$data = I('post.');
+			$brand = D('brand');
+			if (!$brand->create()){
+			        $this->error($brand->getError());
+			     }
 			$res = $this->brand->add($data);
 			if ($res) {
 				$this->success('添加成功',U('showList'));die;

@@ -1,6 +1,7 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
+    'LOAD_EXT_FILE' =>'tree,tree1',  //引入文件
 	//默认首页
 	'URL_MODEL'             =>  1, 
 	'DEFAULT_MODULE'        =>  'Admin',  // 默认模块

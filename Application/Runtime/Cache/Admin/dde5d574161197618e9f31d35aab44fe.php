@@ -36,12 +36,19 @@
                         <td><?php echo ($brand_data['id']); ?></td>
                         <td><a href="#"><?php echo ($brand_data['brand_name']); ?></a></td>
                         <td><?php echo ($brand_data['brand_sort']); ?></td>
-                        
+                
                         <td><a href="<?php echo U('Brand/edit');?>?id=<?php echo ($brand_data['id']); ?>" >修改</a></td>
-                        <td><a href="<?php echo U('Brand/del');?>?id=<?php echo ($brand_data['id']); ?>"  >删除</a></td>
+                        <td><a href="javascript:;"  onclick="del(<?php echo ($brand_data['id']); ?>)">删除</a></td>
                     </tr><?php endforeach; endif; ?>
                 </tbody>
             </table>
         </div>
+        <script type="text/javascript">
+            function del(id) {
+                if (confirm('确认删除?')) {
+                    location.href = "/shop/index.php/Admin/Brand/del/id/"+id
+                }
+            }
+        </script>
     </body>  
 </html>

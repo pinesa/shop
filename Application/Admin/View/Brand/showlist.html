@@ -37,13 +37,20 @@
                         <td>{$brand_data['id']}</td>
                         <td><a href="#">{$brand_data['brand_name']}</a></td>
                         <td>{$brand_data['brand_sort']}</td>
-                        
+                
                         <td><a href="{:U('Brand/edit')}?id={$brand_data['id']}" >修改</a></td>
-                        <td><a href="{:U('Brand/del')}?id={$brand_data['id']}"  >删除</a></td>
+                        <td><a href="javascript:;"  onclick="del({$brand_data['id']})">删除</a></td>
                     </tr>
                    </foreach>
                 </tbody>
             </table>
         </div>
+        <script type="text/javascript">
+            function del(id) {
+                if (confirm('确认删除?')) {
+                    location.href = "__CONTROLLER__/del/id/"+id
+                }
+            }
+        </script>
     </body>  
 </html>

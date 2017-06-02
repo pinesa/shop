@@ -9,8 +9,10 @@ return array(
     'DEFAULT_CONTROLLER'    =>  'Login', // 默认控制器名称
     'DEFAULT_ACTION'        =>  'login', // 默认操作名称 
     "SHOW_PAGE_TRACE"		=>   true,    //打开页面tp信息
+    //自定义路径常量
     'TMPL_PARSE_STRING'  => array(
     	'__HOME__' => __ROOT__.'/Public/Home',
     	'__ADMIN__' => __ROOT__.'/Public/Admin',
+        '__UPLOAD__'=>__ROOT__.'/Uploads',
     	)
 );

@@ -1,11 +1,14 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-/*
-*@var 登录注册模块
-*@author js
-*@time 2017.5.31 
- */
+/**
+* @fun 登录注册模块
+* @author jiangsong
+* @time 2017/5/28
+* @param
+* @return
+* @version tp3.2
+*/
 class LoginController extends Controller {
     /*
     *保存表用户表模型

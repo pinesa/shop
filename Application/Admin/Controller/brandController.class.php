@@ -2,9 +2,11 @@
 namespace Admin\Controller;
 use Think\Controller; 
 /**
-* @var 产品模块
+* @fun 产品模块
 * @author jiangsong
-* @param 2017/5/28
+* @time 2017/5/28
+* @param
+* @return
 */
 class BrandController extends Controller
 {

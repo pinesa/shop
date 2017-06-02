@@ -2,9 +2,11 @@
 namespace Admin\Controller;
 use Think\Controller;
 /**
-* @class 后台管理主页
-* @time 2017.5.28
+* @fun index 后台管理主页
+* @time 2017/5/28
 * @author jiangsong
+* @param
+* @return
 */
 class IndexController extends Controller
 {

@@ -5,7 +5,7 @@
 
         <title>会员列表</title>
 
-        <link href="./css/mine.css" type="text/css" rel="stylesheet" />
+        <link href="__ADMIN__/css/mine.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
         <style>
@@ -15,7 +15,7 @@
             <span>
                 <span style="float: left;">当前位置是：商品管理-》商品列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="#">【添加商品】</a>
+                    <a style="text-decoration: none;" href="{:U('goods_add')}">【添加商品】</a>
                 </span>
             </span>
         </div>
@@ -31,65 +31,48 @@
                         <td>库存</td>
                         <td>价格</td>
                         <td>缩略图</td>
-                       
                         <td>创建时间</td>
-                        <td align="center" colspan="2">操作</td>
+                        <td align="center" style="text-align: center;" colspan="2">操作</td>
                     </tr>
+                    <foreach name="data" item='brand_data'>
                     <tr id="product1">
-                        <td>1</td>
-                        <td><a href="#">苹果（APPLE）iPhone 4S</a></td>
+                        <td>{$brand_data['id']}</td>
+                        <td><a href="#">{$brand_data['goods_name']}</a></td>
                         <td>100</td>
-                        <td>3888</td>
-                        <td><img src="./img/20121018-174034-58977.jpg" height="60" width="60"></td>
-                        <td><img src="./img/20121018-174034-97960.jpg" height="40" width="40"></td>
-                        <td>苹果apple</td>
-                        <td>2012-10-18 17:40:34</td>
+                        <td>{$brand_data['brand_name']}</td>
+                        <td>{$brand_data['goods_count']}</td>
+                        <td>{$brand_data['goods_price']}</td>
+                        <td><img src="__UPLOAD__/{$brand_data['brand_smallpic']}" height="40" width="40"></td>
+                        <td>{$brand_data['goods_add_time']|date="Y/m/d H:i:s",###}</td>
                         <td><a href="#">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
+                        <td><a href="javascript:;" class="goods_del" id="{$brand_data['id']}">下架</a></td>
                     </tr>
-                    <tr id="product2">
-                        <td>2</td>
-                        <td><a href="#">苹果（APPLE）iPhone 4</a></td>
-                        <td>100</td>
-                        <td>3100</td>
-                        <td><img src="./img/20121018-174248-28718.jpg" height="60" width="60"></td>
-                        <td><img src="./img/20121018-174248-87501.jpg" height="40" width="40"></td>
-                        <td>苹果apple</td>
-                        <td>2012-10-18 17:42:48</td>
-                        <td><a href="#">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(2)">删除</a></td>
-                    </tr>
-                    <tr id="product3">
-                        <td>3</td>
-                        <td><a href="#">苹果（APPLE）iPhone 4 8G版</a></td>
-                        <td>100</td>
-                        <td>1290</td>
-                        <td><img src="./img/20121018-174346-31424.jpg" height="60" width="60"></td>
-                        <td><img src="./img/20121018-174346-54660.jpg" height="40" width="40"></td>
-                        <td>苹果apple</td>
-                        <td>2012-10-18 17:43:46</td>
-                        <td><a href="#">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(3)">删除</a></td>
-                    </tr>
-                    <tr id="product4">
-                        <td>4</td>
-                        <td><a href="#">苹果（APPLE）iPhone 4S 16G版</a></td>
-                        <td>100</td>
-                        <td>987</td>
-                        <td><img src="./img/20121018-174455-91962.jpg" height="60" width="60"></td>
-                        <td><img src="./img/20121018-174455-10118.jpg" height="40" width="40"></td>
-                        <td>苹果apple</td>
-                        <td>2012-10-18 17:44:30</td>
-                        <td><a href="#" >修改</a></td>
-                        <td><a href="#" >删除</a></td>
-                    </tr>
+                    </foreach>
                     <tr>
                         <td colspan="20" style="text-align: center;">
-                            [1]
+                            {$page}
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </body>
+    <script type="text/javascript" src="/shop/Public/Admin/js/jquery.min.js"></script>
+    <script type="text/javascript">
+       $(function(){
+        $('.goods_del').click(function(){
+            id = $(this).attr('id');  //获取到点击的id
+            $.ajax({   //以json形式传id到后台
+                url: '',
+                type: 'POST',
+                dataType: 'json',
+                data: {'id': id},
+                success:function(data) {
+                    console.log(data);
+                }
+            })
+        })
+       })
+        
+    </script>
 </html>

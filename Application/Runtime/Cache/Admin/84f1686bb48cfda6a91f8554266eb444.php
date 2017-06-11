@@ -59,8 +59,16 @@
     <script type="text/javascript">
        $(function(){
         $('.goods_del').click(function(){
-            id = $(this).attr('id');
-            alert(id);
+            id = $(this).attr('id');  //获取到点击的id
+            $.ajax({   //以json形式传id到后台
+                url: '',
+                type: 'POST',
+                dataType: 'json',
+                data: {'id': id},
+                success:function(data) {
+                    console.log(data);
+                }
+            })
         })
        })
         

@@ -8,8 +8,10 @@ use Think\Controller;
 * @param
 * @return
 */
-class IndexController extends Controller
+class IndexController extends BaseController
 {
+
+	
 	/*
 	*首页集合
 	 */
@@ -44,6 +46,17 @@ class IndexController extends Controller
 			));
 		$this->display();
 	}
+
+	 public function verify(){
+     $config = array(
+        'useCurve'  =>  true,            // 是否画混淆曲线
+        'useNoise'  =>  true,            // 是否添加杂点  
+        'length'    =>  4               // 验证码位数
+        );
+    $verify = new \Think\Verify($config);
+    ob_clean();
+    $verify->entry();
+   }
 }
 
 

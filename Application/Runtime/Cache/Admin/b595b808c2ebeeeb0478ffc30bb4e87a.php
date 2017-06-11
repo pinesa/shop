@@ -9,7 +9,7 @@
         <title>管理中心 v1.0</title>
     </head>
     <frameset border=0 framespacing=0 rows="60, *" frameborder=0>
-        <frame name=head src="<?php echo U('head');?>" frameborder=0 noresize scrolling=no>
+        <frame name=head src="<?php echo U('header');?>" frameborder=0 noresize scrolling=no>
             <frameset cols="170, *">
                 <frame name=left src="<?php echo U('left');?>" frameborder=0 noresize />
                 <frame name=right src="<?php echo U('right');?>" frameborder=0 noresize scrolling=yes />

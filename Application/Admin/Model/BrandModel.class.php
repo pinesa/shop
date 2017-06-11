@@ -17,6 +17,13 @@ class BrandModel extends Model
 		  array('brand_name','require','品牌名称不能为空'),
 		  array('brand_sort','require','排序不能为空'),
 		);
+
+	//封装获取品牌表数据
+	public function getData()
+	{
+		$data = $this->where("brand_status = 1")->select();
+		return $data;
+	}
 }
 
 

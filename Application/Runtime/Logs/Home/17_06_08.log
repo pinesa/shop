@@ -1,0 +1,915 @@
+[ 2017-06-08T09:40:34+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000969s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001573s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1186s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002904s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020842s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005360s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002547s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002442s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_list.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002667s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_grid_act.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002117s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goods_id_DESC.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003548s ]
+
+[ 2017-06-08T10:03:45+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/last_update_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_text.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002935s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shop_price_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005583s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004290s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/32_thumb_G_1242110760196.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003668s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goumai.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007728s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shoucang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003647s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/20_thumb_G_1242106490058.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010824s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002611s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/21_thumb_G_1242109298150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018879s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/19_thumb_G_1241970175208.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031109s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011087s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/10_thumb_G_1242973436403.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003828s ]
+
+[ 2017-06-08T10:03:46+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001786s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003075s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002479s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003431s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.023157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.051557s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.042388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.051077s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_list.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003485s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_text.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002153s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_grid_act.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003601s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shop_price_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001996s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/last_update_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/32_thumb_G_1242110760196.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008909s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goods_id_DESC.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030055s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goumai.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005286s ]
+
+[ 2017-06-08T10:04:11+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shoucang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005660s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003319s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/21_thumb_G_1242109298150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036801s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/20_thumb_G_1242106490058.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002300s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/10_thumb_G_1242973436403.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015863s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/19_thumb_G_1241970175208.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008351s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002487s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009577s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+
+[ 2017-06-08T10:04:12+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003929s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0094s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T19:58:05+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002754s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008157s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_list.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002018s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035902s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goods_id_DESC.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002376s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_grid_act.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_text.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040317s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/32_thumb_G_1242110760196.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goumai.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002996s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/last_update_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shop_price_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003136s ]
+
+[ 2017-06-08T19:58:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shoucang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/20_thumb_G_1242106490058.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/21_thumb_G_1242109298150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027500s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/19_thumb_G_1241970175208.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002104s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/10_thumb_G_1242973436403.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004946s ]
+
+[ 2017-06-08T19:58:16+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003437s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001749s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002066s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015262s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004084s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000398s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003503s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_list.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002150s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_grid_act.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003605s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054667s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_text.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003249s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goods_id_DESC.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shop_price_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008165s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/last_update_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/32_thumb_G_1242110760196.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goumai.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/21_thumb_G_1242109298150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003366s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shoucang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010279s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/20_thumb_G_1242106490058.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000271s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+
+[ 2017-06-08T19:58:22+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002458s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/19_thumb_G_1241970175208.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003860s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/10_thumb_G_1242973436403.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000490s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006065s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014310s ]
+
+[ 2017-06-08T19:58:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0106s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T19:58:27+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0062s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T19:58:32+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
+
+[ 2017-06-08T20:00:24+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000766s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2017-06-08T20:00:32+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002367s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000838s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003099s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027224s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006847s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004567s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002136s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_list.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008106s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015342s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_text.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003509s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/display_mode_grid_act.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goods_id_DESC.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002143s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/last_update_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006694s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shop_price_default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+
+[ 2017-06-08T20:00:39+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/32_thumb_G_1242110760196.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/goumai.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008516s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002495s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/21_thumb_G_1242109298150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/20_thumb_G_1242106490058.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002561s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/shoucang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000738s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006150s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003439s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/19_thumb_G_1241970175208.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004786s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023327s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023333s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/10_thumb_G_1242973436403.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031518s ]
+
+[ 2017-06-08T20:00:40+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/images/category.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003795s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0084s ]
+ERR: 非法操作:images
+
+[ 2017-06-08T20:27:39+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001955s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003019s ]
+

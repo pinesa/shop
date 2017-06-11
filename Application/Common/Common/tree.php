@@ -1,4 +1,11 @@
 <?php 
+/**
+* @fun 树级分类
+* @author jiangssong
+* @time 2017.5.29
+* @param $list 传入的数据 $pid 父级id $level 层级
+* @return $tree 树级数据
+*/ 
 function getTree($list,$pid=0,$level=0) {   //传入一组数据,
 	static $tree = array();
 	foreach($list as $row) {
@@ -11,6 +18,8 @@ function getTree($list,$pid=0,$level=0) {   //传入一组数据,
 	return $tree;
 }
 
+
+//树级分类
 function list_to_tree($list, $pk = 'id', $pid = 'pid', $child = '_child', $root = 0)   //转为树形
 { 
     // 创建Tree

@@ -8,7 +8,7 @@ use Think\Controller;
 * @param
 * @return
 */
-class GoodsController extends Controller
+class GoodsController extends BaseController
 {
 	//变量good保存实例化模型
 	protected $goods;
@@ -26,7 +26,7 @@ class GoodsController extends Controller
 		$listRows = 5;
 		$page = new \Think\Page($count,$listRows);
 		//获取数据
-		$data = $this->goods->alias('a')->field('a.*,b.brand_name')->join("left join brand b on a.brand_id=b.id")->where('goods_status=1')->limit($page->firstRow,$page->listRows)->select();
+		$data = $this->goods->alias('a')->field('a.*,b.brand_name')->join("left join brand b on a.brand_id=b.id")->where('goods_status=1')->limit($page->firstRow,$page->listRows)->order('id')->select();
 		//修改分页样式
 		$page->setConfig('prev','上一页');
 		$page->setConfig('next','下一页');
@@ -40,8 +40,8 @@ class GoodsController extends Controller
 	public function goods_add(){
 		if (IS_POST) {
 
-			//上传图片功能
-			if ($_FILES['goods_image']['name']!='') {
+			    //上传图片功能,制作缩略图
+		if ($_FILES['goods_image']['name']!='') {
 				 $config = array(
 		        'maxSize'       =>  2*1024*1024, //上传的文件大小限制 (0-不做限制)
 		        'rootPath'      =>  './Uploads/', //保存根路径
@@ -52,17 +52,15 @@ class GoodsController extends Controller
 				if (!$info) {
 					$this->error($upload->getError());  //获取错误信息
 				}
-			}
 
-
-			//制作缩略图
-			$images = new \Think\Image();
-			//第一步打开图片
-			echo UPLOAD.$info['goods_image']['savepath'].$info['goods_image']['savename'];
-			$images->open(UPLOAD.$info['goods_image']['savepath'].$info['goods_image']['savename']);  
-			//第二步thumb()裁剪  
-			$images->thumb(50,50)->save(UPLOAD.$info['goods_image']['savepath'].'thumb'.$info['goods_image']['savename']);
-
+				//制作缩略图
+				$images = new \Think\Image();
+				//第一步打开图片
+				//echo UPLOAD.$info['goods_image']['savepath'].$info['goods_image']['savename'];
+				$images->open(UPLOAD.$info['goods_image']['savepath'].$info['goods_image']['savename']);  
+				//第二步thumb()裁剪  
+				$images->thumb(50,50)->save(UPLOAD.$info['goods_image']['savepath'].'thumb'.$info['goods_image']['savename']);
+		}
 
 			//获取添加商品信息写入数据库
 			$data = I('post.');
@@ -77,20 +75,38 @@ class GoodsController extends Controller
 				$this->error($goods->getError());
 			}
 			$res = $this->goods->add($data);
+			//p($data);
 			if ($res) {
+				//把属性数据传入商品属性表
+				
+				foreach ($data['goods_attr'] as $key => $value) {
+					$goods_attr[] = array(
+						'goods_id'=>$res,
+						'attr_id' =>$key,
+						'attr_val'=>implode(',',$value),
+						);
+				}
+
+				M('goods_attr')->addAll($goods_attr);
+
+
 				$this->success('添加成功',U('goods_list'),3);die;
 			}else{
 				$this->error('添加失败');
 			}
 		}
+
+		
 		//获取brand_data数据
 		$brand_data = M('brand')->select();
-		$arr = array('brand_data' => $brand_data, );
+		$cate_data = M('Category')->select();
+
 		//传入数据
-		$this->assign('data', $arr);
+		$this->assign('brand_data', $brand_data);
+		$this->assign('cate_data', $cate_data);
 		$this->display();
 	}
-	//商品下架操作
+	//商品下架操作 
 	public function del()
 	{
 		

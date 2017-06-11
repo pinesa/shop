@@ -1,0 +1,450 @@
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004722s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homecss/zzsc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003225s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery-1.8.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002520s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005341s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery.colorbox-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015236s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002628s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002668s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/shoucang2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011418s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000456s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003152s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002552s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homejs/zzsc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003631s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002883s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/tuijian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017929s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002376s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003154s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002882s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005408s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/captcha.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003188s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003136s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/shoucang2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004529s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003615s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:07+08:00 ] 127.0.0.1 /shop/Public/Homeimages/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002975s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026948s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004501s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homecss/zzsc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery-1.8.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002568s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003122s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homejs/zzsc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004445s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002673s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/shoucang2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002740s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002687s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/tuijian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004117s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003357s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery.colorbox-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002641s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012294s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002616s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002599s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002584s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/captcha.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homejs/zzsc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002900s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003771s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/shoucang2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004337s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002847s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/tuijian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008737s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002808s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.030388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049831s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002686s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:26+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.020845s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023885s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:27+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012151s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:27+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004098s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:27+08:00 ] 127.0.0.1 /shop/Public/Homeimages/captcha.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:31+08:00 ] 127.0.0.1 /shop/Public/Homecss/zzsc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003072s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:31+08:00 ] 127.0.0.1 /shop/Public/Homeimages/17_thumb_G_1241969394587.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:31+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery-1.8.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019015s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:31+08:00 ] 127.0.0.1 /shop/Public/Homeimages/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002665s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:31+08:00 ] 127.0.0.1 /shop/Public/Homeimages/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003610s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005529s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009333s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homejs/jquery.colorbox-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035151s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homejs/zzsc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004101s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/tuijian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003679s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/shoucang2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003132s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/22_thumb_G_1241971076803.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003304s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002524s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/goumai2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002590s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/13_thumb_G_1241968002527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002920s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002597s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/captcha.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000400s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005726s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T00:03:32+08:00 ] 127.0.0.1 /shop/Public/Homeimages/stars4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004115s ]
+ERR: 无法加载模块:Public
+

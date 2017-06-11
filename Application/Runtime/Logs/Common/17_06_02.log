@@ -58,3 +58,9 @@ ERR: 无法加载模块:Uploads
 [ 2017-06-02T21:33:00+08:00 ] 127.0.0.1 /shop/Uploads/thumb2017-06-02/5931651b1d5eb.jpg
 ERR: 无法加载模块:Uploads
 
+[ 2017-06-02T23:20:45+08:00 ] 127.0.0.1 /shop/Uploads//thumb
+ERR: 无法加载模块:Uploads
+
+[ 2017-06-02T23:21:04+08:00 ] 127.0.0.1 /shop/Uploads//thumb
+ERR: 无法加载模块:Uploads
+

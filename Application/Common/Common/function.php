@@ -12,7 +12,7 @@ function p($str)
 		echo "变量不得为空";die;
 	}else{
 		echo "<pre>";
-		var_dump($str);die;
+		print_r($str);die;
 		echo "</pre>";
 	}
 	
@@ -34,4 +34,24 @@ function htmlPurifier($str)
 	return $clean_str;
 }
 
+
+
+
+/**
+* @fun 数据字典
+* @author jiangsong
+* @time 2017.5.29
+* @param $value 处理格式的参数
+* @return $status 返回转换后的格式
+*/ 
+function getStatus($value=1)
+{
+	if ($value==1) {
+		$status = '是';
+	}else{
+		$status = '否';
+	}
+	return $status;
+}
  ?>
+

@@ -36,7 +36,7 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="<?php echo U('verify');?>" onclick="this.src='/shop/index.php/admin/Login/verify'" style="width: 80px;height: 20px;border-radius: 4px;cursor: pointer;" alt="验证码" />
+                                            <img src="<?php echo U('verify');?>" onclick = 'this.src ="/shop/index.php/Admin/Login/verify/t"+Math.random()' style="width: 80px;height: 20px;border-radius: 4px;cursor: pointer;" alt="验证码" />
                                         </li>
                                     </ul>
                                 </div>

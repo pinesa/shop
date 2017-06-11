@@ -8,7 +8,7 @@ use Think\Controller;
 * @param
 * @return
 */
-class BrandController extends Controller
+class BrandController extends BaseController
 {
 	/*
 	*实例化brand模型

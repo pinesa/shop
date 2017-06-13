@@ -17,15 +17,27 @@
 
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
+                     <?php if(session('?uid')): ?><font id="ECS_MEMBERZONE">
+                        <div id="append_parent"></div>
+
+                        <font class="f4_b"><?php echo (session('username')); ?> </font>, 欢迎您回来！
+                        <a href="#">用户中心</a>
+                        <a href="<?php echo U('login/logout');?>">退出</a>
+
+                    </font>
+                <?php else: ?>
                     <font id="ECS_MEMBERZONE">
+
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="#"> 登录</a>
-                        <a href="#">注册</a>
-                    </font>
+                        <a href="<?php echo U('Login/login');?>"> 登录</a>
+                        <a href="<?php echo U('Login/reg');?>">注册</a>
+
+
+                    </font><?php endif; ?>
                 </div>
                 <div style="float: right;">
-                    <a href="#">查看购物车</a>
+                    <a href="<?php echo U('Cart/showlist');?>">查看购物车</a>
                     |
                     <a href="#">选购中心</a>
                     |

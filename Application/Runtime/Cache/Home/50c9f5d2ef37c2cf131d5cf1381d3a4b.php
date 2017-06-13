@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -8,38 +8,36 @@
         
         <title>YONGDA商城 - Powered by YongDa</title>
         
-        <link href="__HOME__/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/shop/Public/Home/css/style.css" rel="stylesheet" type="text/css" />
         
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top"><img class="logo" src="__HOME__/images/logo.gif"></a>
+            <a href="#" name="top"><img class="logo" src="/shop/Public/Home/images/logo.gif"></a>
 
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
-                     <if condition="session('?uid')">
-                 <font id="ECS_MEMBERZONE">
+                     <?php if(session('?uid')): ?><font id="ECS_MEMBERZONE">
                         <div id="append_parent"></div>
 
-                        <font class="f4_b">{$Think.session.username} </font>, 欢迎您回来！
+                        <font class="f4_b"><?php echo (session('username')); ?> </font>, 欢迎您回来！
                         <a href="#">用户中心</a>
-                        <a href="{:U('login/logout')}">退出</a>
+                        <a href="<?php echo U('login/logout');?>">退出</a>
 
                     </font>
-                <else/>
+                <?php else: ?>
                     <font id="ECS_MEMBERZONE">
 
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="{:U('Login/login')}"> 登录</a>
-                        <a href="{:U('Login/reg')}">注册</a>
+                        <a href="<?php echo U('Login/login');?>"> 登录</a>
+                        <a href="<?php echo U('Login/reg');?>">注册</a>
 
 
-                    </font>
-                </if>
+                    </font><?php endif; ?>
                 </div>
                 <div style="float: right;">
-                    <a href="{:U('Cart/showlist')}">查看购物车</a>
+                    <a href="<?php echo U('Cart/showlist');?>">查看购物车</a>
                     |
                     <a href="#">选购中心</a>
                     |
@@ -49,8 +47,8 @@
                 </div>
             </div>
             <div id="mainNav" class="clearfix">
-                <a href="{:U('Index/index')}" class="cur">首页<span></span></a>
-                <a href="{:U('Goods/showlist')}">GSM手机<span></span></a>
+                <a href="<?php echo U('Index/index');?>" class="cur">首页<span></span></a>
+                <a href="<?php echo U('Goods/showlist');?>">GSM手机<span></span></a>
                 <a href="#">双模手机<span></span></a>
                 <a href="#">手机配件<span></span></a>
                 <a href="#">优惠活动<span></span></a>
@@ -64,28 +62,89 @@
 
             <form id="searchForm" method="get" >
                 <input name="keywords" id="keyword" type="text" />
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('__HOME__/images/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('/shop/Public/Home/images/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
             </form>
         </div>
            <div class="blank5"></div>
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="__HOME__/images/biao6.gif" />
+                <img src="/shop/Public/Home/images/biao6.gif" />
                     北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="__HOME__/images/biao3.gif">
+                <img style="vertical-align: middle;" src="/shop/Public/Home/images/biao3.gif">
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="__HOME__/images/biao7.gif"></a>
+                    <a href="#"><img style="vertical-align: middle;" src="/shop/Public/Home/images/biao7.gif"></a>
 
             </div>
         </div>
 
-        {__CONTENT__}
+        
+        <div class="block block1">
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
+                </div>
+            </div>
+            <div class="blank"></div>
+
+            <div class="block box">
+
+            <div class="usBox clearfix">
+                <div class="usBox_1 f_l">
+                    <div class="logtitle"></div>
+                    <form name="formLogin" action="<?php echo U('Login/login');?>" method="post">
+                        <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
+                            <tbody><tr>
+                                    <td align="right" width="15%">用户名</td>
+                                    <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
+                                </tr>
+                                <tr>
+                                    <td align="right">密码</td>
+                                    <td>
+                                        <input name="password" size="15" class="inputBg" type="password" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input value="1" name="remember" id="remember" type="checkbox" />
+                                        <label for="remember">请保存我这次的登录信息。</label></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td align="left">
+                                        <input name="act" value="act_login" type="hidden" />
+                                        <input name="back_act" value="./index.php" type="hidden" />
+                                        <input name="submit" value="" class="us_Submit" type="submit" />
+                                    </td>
+                                </tr>
+                                <tr><td></td><td><a href="#" class="f3">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a href="#" class="f3">注册邮件找回密码</a></td></tr>
+                            </tbody></table>
+                    </form>
+                    <div class="blank"></div>
+                </div>
+                <div class="usTxt">
+                    <div class="regtitle"></div>
+                    <div style="padding-left: 50px;">
+                        <strong>如果您不是会员，请注册</strong>  <br />
+                        <strong class="f4">友情提示：</strong><br />
+                        不注册为会员也可在本店购买商品<br />
+                        但注册之后您可以：<br />
+                        1. 保存您的个人资料<br />
+                        2. 收藏您关注的商品<br />
+                        3. 享受会员积分制度<br />
+                        4. 订阅本店商品信息  <br />
+                        <a href="#"><img src="/shop/Public/Home/images/bnt_ur_reg.gif"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+			
         
         <div class="block">
-            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="__HOME__/images/di.jpg"></a>
+            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="/shop/Public/Home/images/di.jpg"></a>
             <div class="blank"></div>
         </div>
         <div class="block">
@@ -136,10 +195,10 @@
         <div id="bottomNav" class="box block">
             <div class="box_1">
                 <div class="links clearfix"> 
-                    <a href="#" target="_blank" title="YONGDA商城"><img src="__HOME__/images/ecmoban.gif" alt="YONGDA商城" border="0"></a>
+                    <a href="#" target="_blank" title="YONGDA商城"><img src="/shop/Public/Home/images/ecmoban.gif" alt="YONGDA商城" border="0"></a>
 
                     <a href="#" target="_blank" title="YONGDA 网上商店管理系统">
-                        <img src="__HOME__/images/logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
+                        <img src="/shop/Public/Home/images/logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                     </a>
 
 

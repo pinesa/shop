@@ -1,0 +1,1223 @@
+[ 2017-06-15T10:33:12+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001905s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2017-06-15T10:33:43+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1748s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014776s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006328s ]
+
+[ 2017-06-15T10:33:48+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004067s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=10 ) [ RunTime:0.6494s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.1140s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=10 [ RunTime:0.1744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002120s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003774s ]
+
+[ 2017-06-15T10:34:04+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002853s ]
+
+[ 2017-06-15T10:34:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1572s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'youth' AND `user_pwd` = 'cafbd6b58be6f21343316164482edb25' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-06-15T10:34:21+08:00 ] 127.0.0.1 /shop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001884s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2017-06-15T10:34:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003808s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001991s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002727s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003767s ]
+
+[ 2017-06-15T10:34:26+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0205s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=8 ) [ RunTime:0.1484s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=8 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003021s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006898s ]
+
+[ 2017-06-15T10:34:30+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0081s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=14 ) [ RunTime:0.0546s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=14 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002120s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003894s ]
+
+[ 2017-06-15T10:34:33+08:00 ] 127.0.0.1 /shop/index.php/Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+NOTIC: [8] Undefined index: goods_attr F:\shop\shop\Application\Home\Controller\CartController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `cart` WHERE `goods_id` = 14 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cart` SET `number`=number+1 WHERE `goods_id` = 14 AND `user_id` = 2 [ RunTime:0.1006s ]
+
+[ 2017-06-15T10:34:34+08:00 ] 127.0.0.1 /shop/index.php/Home/Cart/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001567s ]
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2017-06-15T10:34:48+08:00 ] 127.0.0.1 /shop/index.php/Home/Cart/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001802s ]
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2017-06-15T10:35:18+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003578s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0069s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=11 ) [ RunTime:0.0747s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=11 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002242s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004043s ]
+
+[ 2017-06-15T10:46:49+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0063s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=9 ) [ RunTime:0.1405s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=9 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002805s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006776s ]
+
+[ 2017-06-15T10:47:15+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist/brand_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001849s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003123s ]
+
+[ 2017-06-15T10:47:19+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist/brand_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003369s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001874s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002741s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005679s ]
+
+[ 2017-06-15T10:47:20+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist/brand_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003111s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001834s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002807s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005114s ]
+
+[ 2017-06-15T10:47:23+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist/brand_id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002212s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005869s ]
+
+[ 2017-06-15T15:59:40+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001369s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006158s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=8 ) [ RunTime:0.2576s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=8 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003566s ]
+
+[ 2017-06-15T16:31:49+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:32:05+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:32:32+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004774s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:32:33+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:32:35+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:33:10+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:33:11+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004306s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:33:29+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:34:45+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:36:20+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:36:21+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:36:27+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+NOTIC: [2] fopen(F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net/qqwry.bat): failed to open stream: No such file or directory F:\shop\shop\ThinkPHP\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+
+[ 2017-06-15T16:38:28+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+
+[ 2017-06-15T16:38:57+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003547s ]
+
+[ 2017-06-15T16:39:18+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006936s ]
+
+[ 2017-06-15T16:39:31+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001995s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006128s ]
+
+[ 2017-06-15T16:40:41+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+NOTIC: [2] iconv() expects exactly 3 parameters, 2 given F:\shop\shop\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004984s ]
+
+[ 2017-06-15T16:40:59+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001850s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007011s ]
+
+[ 2017-06-15T16:41:09+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001956s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005014s ]
+
+[ 2017-06-15T16:42:11+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006412s ]
+
+[ 2017-06-15T16:42:53+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003196s ]
+
+[ 2017-06-15T16:43:28+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001958s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006767s ]
+
+[ 2017-06-15T16:43:34+08:00 ] 127.0.0.1 /shop/index.php/Home/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2017-06-15T16:43:35+08:00 ] 127.0.0.1 /shop/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004875s ]
+
+[ 2017-06-15T16:43:37+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002361s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005096s ]
+
+[ 2017-06-15T16:43:49+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000572s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'youths' AND `user_pwd` = 'cafbd6b58be6f21343316164482edb25' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000715s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003735s ]
+
+[ 2017-06-15T16:43:51+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002574s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005678s ]
+
+[ 2017-06-15T16:43:57+08:00 ] 127.0.0.1 /shop/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'youth' AND `user_pwd` = 'cafbd6b58be6f21343316164482edb25' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+
+[ 2017-06-15T16:43:59+08:00 ] 127.0.0.1 /shop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005818s ]
+
+[ 2017-06-15T16:44:02+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002284s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004255s ]
+
+[ 2017-06-15T16:44:05+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004061s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=14 ) [ RunTime:0.1146s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=14 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003592s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 72 行.
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007220s ]
+
+[ 2017-06-15T16:44:07+08:00 ] 127.0.0.1 /shop/index.php/Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+NOTIC: [8] Undefined index: goods_attr F:\shop\shop\Application\Home\Controller\CartController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cart` WHERE `goods_id` = 14 AND `user_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `cart` SET `number`=number+1 WHERE `goods_id` = 14 AND `user_id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-06-15T16:44:07+08:00 ] 127.0.0.1 /shop/index.php/Home/Cart/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001978s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003905s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+NOTIC: [8] Use of undefined constant goods_attr - assumed 'goods_attr' F:\shop\shop\Application\Runtime\Cache\Home\68f9213846dc923dbd10d098484a0769.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003462s ]
+
+[ 2017-06-15T16:51:52+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0079s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=10 ) [ RunTime:0.1057s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=10 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003382s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 72 行.
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005144s ]
+
+[ 2017-06-15T16:51:55+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0072s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=10 ) [ RunTime:0.0420s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=10 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003178s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 72 行.
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003760s ]
+
+[ 2017-06-15T16:51:58+08:00 ] 127.0.0.1 /shop/index.php/Home/goods/detail/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: UPDATE `goods` SET `goods_click`=goods_click+1 WHERE ( id=10 ) [ RunTime:0.0968s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=10 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003059s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 72 行.
+NOTIC: [8] Undefined variable: datas_pic F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 162 行.
+NOTIC: [8] Undefined index: brand_name F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 183 行.
+NOTIC: [8] Undefined index: goods_wight F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 188 行.
+NOTIC: [8] Undefined index: goods_editime F:\shop\shop\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004396s ]
+

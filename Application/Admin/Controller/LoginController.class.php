@@ -28,10 +28,10 @@ class LoginController extends Controller{
             $code = I('post.captcha');
             //验证码判断
             $verify = new \Think\Verify();
-            /*if (!$verify->check($code)) {
+            if (!$verify->check($code)) {
                 $this->error('验证码输入错误',U('login'));
             }
-*/            $data=$this->admin->where("username='$username' AND password='$pwd'")->find();
+           $data=$this->admin->where("username='$username' AND password='$pwd'")->find();
     		if($data){
                 $data['login_count'] = $data['login_count']+1;
                 $this->admin->where("username='$username' AND password='$pwd'")->save($data);

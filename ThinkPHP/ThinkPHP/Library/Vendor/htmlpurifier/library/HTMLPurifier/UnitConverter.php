@@ -243,7 +243,7 @@ class HTMLPurifier_UnitConverter
      * @param int $scale
      * @return string
      */
-    private function div($s1, $s2, $scale)
+    private function 3div($s1, $s2, $scale)
     {
         if ($this->bcmath) {
             return bcdiv($s1, $s2, $scale);

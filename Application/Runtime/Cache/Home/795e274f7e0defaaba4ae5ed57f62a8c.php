@@ -165,7 +165,7 @@
             <div class="textInfo">
                 
                     <div class="clearfix" style="font-size: 14px; font-weight: bold; padding-bottom: 8px;">
-                        诺基亚E66
+                        <?php echo ($data["goods_name"]); ?>
                     </div>
                     <ul>
                         <li class="clearfix">
@@ -183,27 +183,23 @@
                                 <strong>商品品牌：</strong><a href="#"><?php echo ($data["brand_name"]); ?></a>
                             </dd>
                         </li>
+                        
                         <li class="clearfix">
                             <dd>
-                                <strong>商品重量：</strong><?php echo ($data["goods_wight"]); ?>克
+                                <strong>上架时间：</strong><?php echo (date('Y-m-d H:i:s',$data["goods_add_time"])); ?>
                             </dd>
                         </li>
                         <li class="clearfix">
                             <dd>
-                                <strong>上架时间：</strong><?php echo (date('Y-m-d H:i:s',$data["goods_editime"])); ?>
-                            </dd>
-                        </li>
-                        <li class="clearfix">
-                            <dd>
-                                <strong>商品点击数：</strong><?php echo ($data["goods_click"]); ?> </dd>
+                                <strong>商品点击数：</strong><?php echo ($data["goods_click"]); ?></dd>
                         </li>
                         <li class="clearfix">
                             <dd>
                                 <strong>市场价格：</strong>
-                                <font class="market">￥2758元</font>
+                                <font class="market"><?php echo ($data["goods_mprice"]); ?></font>
                                 <br />
                                 <strong>本店售价：</strong>
-                                <font class="shop" id="ECS_SHOPPRICE">￥2298元</font>
+                                <font class="shop" id="ECS_SHOPPRICE"><?php echo ($data["goods_price"]); ?></font>
                                 <br />
                             </dd>
                         </li>
@@ -216,6 +212,7 @@
                         </li>
 
                         <input type="hidden" name="goods_id" value="<?php echo ($data["id"]); ?>" /> 
+
                        <input type="hidden" name="goods_price" value="<?php echo ($data["goods_price"]); ?>" />       
                                 <li class="clearfix">
                         <?php if(is_array($goods_attr)): foreach($goods_attr as $key=>$d): ?><li class="padd loop">
@@ -224,7 +221,7 @@
                                         <input name="goods_attr[<?php echo ($d["attr_name"]); ?>]" value="<?php echo ($dd); ?>" id="spec_value_227" <?php if($k == 0): ?>checked="checked"<?php endif; ?> type="radio" /> <?php echo ($dd); ?> </label><?php endforeach; endif; ?>
                             </li><?php endforeach; endif; ?>
                         <li class="padd">
-                            <a href=""><img src="/shop/Public/Home/images/goumai2.gif"></a>
+                            <a id="buy"><img src="/shop/Public/Home/images/goumai2.gif"></a>
                             <a  id="cart" href="javascript:void(0);"><img src="/shop/Public/Home/images/shoucang2.gif"></a>
                             <a href="#"><img src="/shop/Public/Home/images/tuijian.gif"></a>
                         </li>
@@ -233,6 +230,11 @@
                 <script type="text/javascript">
                     $('#cart').click(function(){
                         $('#cart_form').attr('action','<?php echo U("Cart/add");?>');
+                        $('#cart_form').submit();
+                    })
+
+                     $('#buy').click(function(){
+                        $('#cart_form').attr('action','<?php echo U("Order/buy");?>');
                         $('#cart_form').submit();
                     })
                 </script>

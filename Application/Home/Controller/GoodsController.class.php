@@ -17,21 +17,25 @@ class GoodsController extends Controller {
         $model = M('goods');
         $model->where('id=' . $id)->setInc('goods_click', 1);
 
-        $data = M('goods')->find($id);
+        $data_detail = M('goods')->alias('a')->field('a.*,b.brand_name')->JOIN('brand b ON a.brand_id=b.id','LEFT')->where('a.id='.$id)->select();
+        foreach ($data_detail [0] as $key => $value) {
+            $data[$key] = $value;
+        }
+        //$data = array_column($data, 0);
         //商品属性展示
-        $goods_attr = M()->query('SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where b.attr_inp=1 and a.goods_id=' . $id);
+        $goods_attr = M()->query('SELECT b.attr_name,b.attr_val,a.id,a.goods_id,a.attr_id,a.attr_val FROM goods_attr AS a LEFT JOIN attribute AS b ON a.attr_id = b.id where  a.goods_id=' . $id);
 
        
         foreach ($goods_attr as $key => $value) {
             $goods_attr[$key]['goods_attr_val'] = explode(',', $value['attr_val']);
         }
         
-        // dump($goods_attr);exit;
         //$this->assign('goods_attr', $goods_attr);
         //商品的图片【相册】
        // $datas_pic = M('pic')->where('goods_id=' . $id)->select();
         // dump($datas_pic);exit;
         //$this->assign('datas_pic', $datas_pic);
+        
         $this->assign('data',$data);
         $this->assign('goods_attr',$goods_attr);
         $this->display();

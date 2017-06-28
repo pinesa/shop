@@ -1,0 +1,69 @@
+[ 2017-06-23T16:19:20+08:00 ] 127.0.0.1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.017364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006693s ]
+
+[ 2017-06-23T16:19:24+08:00 ] 127.0.0.1 /shop/index.php/Home/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1844s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_status=1 )  [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0989s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001662s ]
+NOTIC: [8] Undefined variable: str F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 72 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Undefined variable: brand_id F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 162 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\shop\shop\Application\Runtime\Cache\Home\5abfe48c9190326c5582b9c3f76eb39d.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001894s ]
+

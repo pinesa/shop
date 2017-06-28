@@ -32,6 +32,7 @@ class GoodsController extends BaseController
 		$page->setConfig('next','下一页');
 		$page = $page->show();
 		//传数据到模板
+		
 		$this->assign('data',$data);
 		$this->assign('page',$page);
 		$this->display();
@@ -39,7 +40,6 @@ class GoodsController extends BaseController
 	//商品添加
 	public function goods_add(){
 		if (IS_POST) {
-
 			    //上传图片功能,制作缩略图
 		if ($_FILES['goods_image']['name']!='') {
 				 $config = array(
@@ -86,7 +86,7 @@ class GoodsController extends BaseController
 						'attr_val'=>implode(',',$value),
 						);
 				}
-
+				
 				M('goods_attr')->addAll($goods_attr);
 
 
@@ -95,12 +95,10 @@ class GoodsController extends BaseController
 				$this->error('添加失败');
 			}
 		}
-
-		
 		//获取brand_data数据
 		$brand_data = M('brand')->select();
 		$cate_data = M('Category')->select();
-
+		
 		//传入数据
 		$this->assign('brand_data', $brand_data);
 		$this->assign('cate_data', $cate_data);

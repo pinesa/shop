@@ -26,6 +26,7 @@ class AttributeController extends Controller
             $datas = $model->create();
             //将中文逗号切换成英文
             $datas['attr_val'] = str_replace('，', ',', $datas['attr_val']);
+            p($datas);
             $res               = $model->add($datas);
             if ($res) {
                 $this->success('操作成功!', U('attr_list'));exit;
@@ -41,6 +42,7 @@ class AttributeController extends Controller
 	public function attr_list()
 	{
 		$attr_data = M('attribute')->alias('a')->join('LEFT JOIN category AS b ON a.cate_id = b.id')->field("a.id,a.attr_name,a.cate_id,a.attr_inp,a.attr_type,a.attr_val,b.category_name")->order('id')->select();
+		
 		$this->assign('attr_data',$attr_data);
 		$this->display();
 	}
